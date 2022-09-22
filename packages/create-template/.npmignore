@@ -1,0 +1,10 @@
+# 忽略目录
+node_modules/
+components/
+stories/
+ 
+# 忽略指定文件
+vue.config.js
+babel.config.js
+tsconfig.json
+*.map
