@@ -11,7 +11,7 @@
         "test": "__tests__"
     },
     "files": [
-        "lib"
+        "src"
     ],
     "bin": {
         "joy": "bin/index.js"
