@@ -17,7 +17,7 @@
         "joy": "bin/index.js"
     },
     "publishConfig": {
-        "registry": "https://registry.yarnpkg.com/"
+        "registry": "http://registry.npmjs.org/"
     },
     "scripts": {
         "create": "joy"
@@ -25,5 +25,6 @@
     "dependencies": {
         "fast-glob": "^3.2.7",
         "fs-extra": "^9.1.0"
-    }
+    },
+    "gitHead": "614814f99ad1c3fea6a7871d23f15b78c54929ae"
 }
