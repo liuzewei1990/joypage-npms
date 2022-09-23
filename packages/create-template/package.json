@@ -13,11 +13,14 @@
     "files": [
         "lib"
     ],
+    "bin": {
+        "joy": "bin/index.js"
+    },
     "publishConfig": {
         "registry": "https://registry.yarnpkg.com/"
     },
     "scripts": {
-        "test": "node ./src/index.js"
+        "create": "joy"
     },
     "dependencies": {
         "fast-glob": "^3.2.7",

@@ -6,7 +6,7 @@ const componentName = process.argv[2];
 const templatePath = path.resolve(__dirname, "template");
 const targetComponentPath = path.resolve(__dirname, `../components/${componentName}`);
 const targetStoryPath = path.resolve(__dirname, `../stories`);
-
+console.log(__dirname);
 if (!componentName) {
     console.error("Error: 请提供组件名！");
     process.exit();
