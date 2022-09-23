@@ -17,7 +17,7 @@
         "joy": "bin/index.js"
     },
     "publishConfig": {
-        "registry": "http://registry.npmjs.org/"
+        "registry": "https://registry.npmjs.org/"
     },
     "scripts": {
         "create": "joy"
@@ -26,5 +26,5 @@
         "fast-glob": "^3.2.7",
         "fs-extra": "^9.1.0"
     },
-    "gitHead": "614814f99ad1c3fea6a7871d23f15b78c54929ae"
+    "gitHead": "dbf81954c9894b30b8d2eaeb0f3bf8b5b8279786"
 }
