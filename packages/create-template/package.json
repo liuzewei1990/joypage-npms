@@ -17,6 +17,7 @@
         "joy": "bin/index.js"
     },
     "publishConfig": {
+        "access": "public",
         "registry": "https://registry.npmjs.org/"
     },
     "scripts": {
@@ -26,5 +27,5 @@
         "fast-glob": "^3.2.7",
         "fs-extra": "^9.1.0"
     },
-    "gitHead": "dbf81954c9894b30b8d2eaeb0f3bf8b5b8279786"
+    "gitHead": "101cf27742d27ba04432da43a0653e7162ea0ffc"
 }
