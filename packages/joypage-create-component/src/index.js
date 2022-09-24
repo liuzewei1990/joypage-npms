@@ -4,8 +4,8 @@ const fg = require("fast-glob");
 
 const componentName = process.argv[2];
 const templatePath = path.resolve(__dirname, "template");
-const targetComponentPath = path.resolve(__dirname, `../components/${componentName}`);
-const targetStoryPath = path.resolve(__dirname, `../stories`);
+const targetComponentPath = path.resolve(`components/${componentName}`);
+const targetStoryPath = path.resolve(`stories`);
 
 if (!componentName) {
     console.error("Error: 请提供组件名！");
@@ -18,6 +18,7 @@ if (fs.pathExistsSync(targetComponentPath)) {
 }
 
 const replaceContent = async (pattern, searchValue, replaceValue) => {
+    pattern = pattern.replace(/\\/g, "/");
     const files = await fg(pattern);
     const regExp = new RegExp(searchValue, "g");
 

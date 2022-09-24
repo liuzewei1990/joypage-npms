@@ -21,7 +21,7 @@
         "registry": "https://registry.npmjs.org/"
     },
     "scripts": {
-        "create": "joy"
+        "create": "node src/index.js"
     },
     "dependencies": {
         "fast-glob": "^3.2.7",
