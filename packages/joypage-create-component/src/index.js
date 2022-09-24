@@ -46,8 +46,8 @@ const copyComponentStory = async () => {
 
 // 在组件库入口中对外暴露此组件
 function registerComponent() {
-    fs.appendFileSync(path.resolve(__dirname, "../components/index.js"), `export { default as ${componentName} } from \'./${componentName}\';\n`);
-    fs.appendFileSync(path.resolve(__dirname, "../components/index.less"), `@import \'./${componentName}/style/index.less\';\n`);
+    fs.appendFileSync(path.resolve("components/index.js"), `export { default as ${componentName} } from \"./${componentName}\";\n`);
+    fs.appendFileSync(path.resolve("components/index.less"), `@import \"./${componentName}/style/index.less\";\n`);
 }
 
 const run = async () => {

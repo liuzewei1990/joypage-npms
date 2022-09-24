@@ -9,6 +9,6 @@
  * @title 基本用法
  * @description 描述你的例子
  */
-import Basic from './basic.vue';
+import Basic from "./basic.vue";
 
 export const BasicDemo = () => Basic;
