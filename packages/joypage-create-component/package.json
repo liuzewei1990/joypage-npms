@@ -14,14 +14,14 @@
         "src"
     ],
     "bin": {
-        "joy": "bin/index.js"
+        "joypage-create-component": "bin/index.js"
     },
     "publishConfig": {
         "access": "public",
         "registry": "https://registry.npmjs.org/"
     },
     "scripts": {
-        "create": "node src/index.js"
+        "test": "src/index.js"
     },
     "dependencies": {
         "fast-glob": "^3.2.7",
