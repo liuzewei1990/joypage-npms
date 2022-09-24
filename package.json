@@ -4,8 +4,6 @@
     "workspaces": [
         "packages/*"
     ],
-    "scripts": {
-        "aa": "joypage-create-component"
-    },
+    "scripts": {},
     "devDependencies": {}
 }

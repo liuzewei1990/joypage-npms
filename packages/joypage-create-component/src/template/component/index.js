@@ -1,4 +1,5 @@
-import _@CONST_COMPONENT_NAME@ from "./component.vue";
+import * as Vue from "vue";
+const _@CONST_COMPONENT_NAME@ = Vue.defineAsyncComponent(() => import(/* webpackChunkName: "async" */ /* webpackPrefetch:true */ "./component.vue"));
 
 const @CONST_COMPONENT_NAME@ = Object.assign(_@CONST_COMPONENT_NAME@, {
     install: (app) => {
