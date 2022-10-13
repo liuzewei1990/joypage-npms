@@ -1,0 +1,26 @@
+{
+  "name": "joypage-data-cache",
+  "version": "1.0.15",
+  "description": "> TODO: description",
+  "author": "874396180 <liupandeng@bicai365.com>",
+  "homepage": "https://github.com/liuzewei1990/joypage-npms#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuzewei1990/joypage-npms.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/joypage-data-cache.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/liuzewei1990/joypage-npms/issues"
+  }
+}
