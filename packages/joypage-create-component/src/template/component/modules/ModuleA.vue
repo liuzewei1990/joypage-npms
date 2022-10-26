@@ -1,16 +1,14 @@
 <template>
   <section>
-    <module-a></module-a>
+    <div flex="dir:left main:center cross:center" style="height: 100px">所有子组件细化成组件，放在modules文件夹中</div>
   </section>
 </template>
 
 <script>
   import { service, api, utils } from "@work/work";
-  import ModuleA from "./modules/ModuleA.vue";
 
   export default {
-    name: "@CONST_COMPONENT_NAME@",
-    components: { ModuleA },
+    components: {},
     inject: ["work"],
     computed: {},
     watch: {},
