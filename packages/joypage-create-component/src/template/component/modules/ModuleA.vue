@@ -1,11 +1,13 @@
 <template>
   <section>
-    <div flex="dir:left main:center cross:center" style="height: 100px">所有子组件细化成组件，放在modules文件夹中</div>
+    <div flex="dir:left main:center cross:center" style="height: 100px">
+      <span>一个模块应该细化分成多个子组件，放在modules文件夹中</span>
+    </div>
   </section>
 </template>
 
 <script>
-  import { service, api, utils } from "@work/work";
+  import { service, api } from "@work/base";
 
   export default {
     components: {},
@@ -17,7 +19,6 @@
     },
     created() {},
     activated() {},
-    initWorkbus() {},
     methods: {}
   };
 </script>

@@ -5,7 +5,7 @@
 </template>
 
 <script>
-  import { service, api, utils } from "@work/work";
+  import { service, api } from "@work/base";
   import ModuleA from "./modules/ModuleA.vue";
 
   export default {
@@ -19,7 +19,6 @@
     },
     created() {},
     activated() {},
-    initWorkbus() {},
     methods: {}
   };
 </script>
