@@ -11,6 +11,11 @@
   export default {
     name: "@CONST_COMPONENT_NAME@",
     components: { ModuleA },
+    /**
+     * ons: 需要暴露的事件列表
+     * 其他组件可以通过 this.work.emit("模块名", { type: "action", data:xxx }); 与该组件进行通讯
+     */
+    ons: ["action"],
     inject: ["work"],
     computed: {},
     watch: {},
